@@ -1,0 +1,32 @@
+{
+  "name": "session_auth_learning_express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EfeAgare/SESSION_AUTH_LEARNING_EXPRESS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EfeAgare/SESSION_AUTH_LEARNING_EXPRESS/issues"
+  },
+  "homepage": "https://github.com/EfeAgare/SESSION_AUTH_LEARNING_EXPRESS#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2"
+  }
+}
